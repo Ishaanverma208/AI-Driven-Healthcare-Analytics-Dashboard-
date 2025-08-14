@@ -1,0 +1,1001 @@
+PatientID,Age,Gender,Department,Diagnosis,TreatmentCost,LengthOfStay,Readmitted,SatisfactionScore,DischargedDate
+1,62,Female,Cardiology,Stroke,71328,12,0,4,2025-03-10
+2,37,Female,Cardiology,Stroke,13372,2,0,2,2025-05-07
+3,66,Female,Surgery,Stroke,14338,13,0,4,2024-12-10
+4,78,Female,Neurology,Cancer,188418,8,0,4,2023-09-12
+5,24,Female,Oncology,Cancer,28010,15,0,4,2023-06-15
+6,61,Male,Cardiology,Stroke,70019,3,1,4,2025-02-13
+7,23,Male,Cardiology,Heart Attack,166358,13,0,5,2023-08-11
+8,77,Male,Oncology,Heart Attack,30342,7,0,2,2025-02-15
+9,89,Male,Oncology,Cancer,11045,3,1,5,2024-03-02
+10,82,Female,Surgery,Diabetes,199768,13,1,1,2024-07-31
+11,35,Female,Orthopedics,Fracture,164234,14,0,2,2024-07-05
+12,59,Male,Orthopedics,Cancer,151745,2,0,4,2024-09-14
+13,90,Female,Neurology,Stroke,139685,8,0,2,2024-06-30
+14,59,Male,Oncology,Cancer,135135,5,0,5,2024-08-31
+15,54,Female,Cardiology,Stroke,13353,5,0,4,2024-06-25
+16,23,Male,Surgery,Diabetes,43491,14,0,3,2023-12-30
+17,45,Female,Neurology,Heart Attack,18179,5,1,4,2024-04-23
+18,26,Male,Orthopedics,Stroke,79554,13,1,1,2024-01-02
+19,23,Male,Neurology,Diabetes,62717,7,0,3,2024-12-29
+20,66,Female,Surgery,Stroke,149459,12,0,5,2023-07-18
+21,63,Female,Oncology,Diabetes,103341,12,0,4,2024-04-25
+22,80,Male,Oncology,Heart Attack,153242,15,0,3,2023-12-16
+23,62,Male,Oncology,Fracture,31110,4,0,4,2025-06-07
+24,28,Female,Neurology,Heart Attack,181597,9,0,3,2023-10-10
+25,34,Female,Neurology,Diabetes,51838,14,0,1,2023-06-18
+26,26,Female,Oncology,Heart Attack,39298,10,0,4,2024-04-20
+27,82,Male,Oncology,Stroke,117732,1,1,5,2023-07-03
+28,18,Male,Oncology,Cancer,196493,8,1,3,2023-09-27
+29,75,Male,Oncology,Cancer,119366,1,0,2,2024-08-28
+30,69,Female,Orthopedics,Cancer,98517,1,1,4,2025-05-30
+31,58,Male,Orthopedics,Stroke,148266,7,0,1,2024-06-18
+32,75,Female,Cardiology,Fracture,99164,9,0,4,2024-06-18
+33,41,Male,Cardiology,Stroke,145019,9,1,1,2023-06-27
+34,28,Female,Surgery,Heart Attack,26991,13,1,5,2024-10-04
+35,63,Male,Oncology,Fracture,87109,2,0,5,2024-06-08
+36,36,Male,Neurology,Stroke,135309,4,0,5,2024-05-21
+37,53,Male,Neurology,Diabetes,21277,15,1,1,2024-10-23
+38,48,Female,Orthopedics,Stroke,190331,14,0,5,2025-02-20
+39,35,Male,Neurology,Fracture,92074,6,0,4,2025-01-27
+40,38,Male,Surgery,Fracture,109113,4,0,5,2025-02-17
+41,83,Female,Orthopedics,Heart Attack,165642,5,0,3,2024-04-18
+42,28,Female,Neurology,Cancer,96538,4,0,1,2024-11-07
+43,38,Male,Orthopedics,Fracture,198090,6,0,5,2024-02-04
+44,34,Female,Cardiology,Stroke,174473,9,0,5,2024-04-10
+45,53,Male,Surgery,Heart Attack,170879,5,0,5,2023-07-07
+46,81,Male,Neurology,Heart Attack,18254,1,0,2,2025-04-01
+47,36,Female,Neurology,Diabetes,90544,9,0,3,2024-10-07
+48,29,Male,Orthopedics,Stroke,55394,15,0,3,2025-02-22
+49,65,Male,Oncology,Stroke,80719,11,0,4,2023-08-06
+50,86,Male,Cardiology,Diabetes,24563,10,0,3,2023-10-14
+51,75,Male,Oncology,Heart Attack,197164,7,0,5,2024-08-20
+52,76,Male,Orthopedics,Diabetes,145851,5,0,2,2024-04-30
+53,27,Male,Neurology,Diabetes,109074,6,0,5,2024-05-07
+54,40,Female,Oncology,Heart Attack,17321,12,0,3,2023-12-07
+55,58,Male,Neurology,Stroke,82865,1,0,4,2023-11-02
+56,66,Male,Cardiology,Cancer,45598,11,0,1,2024-06-21
+57,34,Male,Cardiology,Cancer,74006,1,0,4,2024-03-08
+58,36,Female,Neurology,Diabetes,164275,5,0,1,2023-06-19
+59,69,Female,Orthopedics,Cancer,139410,5,1,4,2024-08-10
+60,27,Female,Oncology,Fracture,71260,7,1,3,2024-02-11
+61,18,Female,Neurology,Fracture,13376,7,0,4,2024-01-31
+62,29,Male,Orthopedics,Stroke,69622,10,0,4,2024-05-28
+63,24,Female,Orthopedics,Diabetes,70302,7,0,3,2024-07-12
+64,52,Male,Oncology,Fracture,36501,7,0,5,2024-06-23
+65,51,Female,Cardiology,Diabetes,55458,4,0,1,2024-12-25
+66,57,Female,Surgery,Diabetes,96702,6,0,5,2025-04-04
+67,81,Female,Oncology,Cancer,199427,12,0,2,2024-12-20
+68,80,Female,Neurology,Cancer,78348,1,0,2,2024-04-07
+69,22,Male,Neurology,Fracture,121703,6,0,5,2024-01-13
+70,61,Male,Surgery,Heart Attack,120446,8,1,1,2025-05-09
+71,62,Female,Surgery,Diabetes,179713,7,0,3,2024-11-13
+72,69,Male,Surgery,Cancer,122238,1,0,3,2023-06-15
+73,61,Male,Cardiology,Cancer,32019,4,0,4,2024-01-21
+74,48,Female,Neurology,Fracture,10583,7,0,5,2024-04-14
+75,69,Female,Cardiology,Fracture,160643,6,1,1,2024-03-10
+76,75,Male,Surgery,Heart Attack,61150,14,0,2,2023-08-05
+77,88,Female,Neurology,Fracture,128082,2,1,5,2024-10-23
+78,84,Male,Orthopedics,Stroke,177212,4,1,1,2024-10-14
+79,61,Male,Oncology,Diabetes,121152,1,0,3,2024-06-22
+80,78,Female,Cardiology,Stroke,186876,6,0,4,2023-07-05
+81,59,Male,Orthopedics,Cancer,107150,5,0,5,2023-12-22
+82,38,Male,Cardiology,Diabetes,13109,4,0,4,2024-04-17
+83,66,Female,Neurology,Stroke,76517,12,0,2,2025-01-05
+84,75,Female,Neurology,Diabetes,151710,2,1,2,2023-08-25
+85,46,Female,Surgery,Stroke,58067,8,0,5,2023-06-22
+86,53,Male,Oncology,Heart Attack,58986,12,0,1,2024-11-04
+87,89,Male,Cardiology,Stroke,29458,10,0,2,2024-09-28
+88,19,Male,Surgery,Stroke,122623,15,0,4,2023-07-16
+89,79,Male,Surgery,Heart Attack,122165,7,0,3,2024-12-07
+90,63,Female,Oncology,Heart Attack,178481,14,0,5,2024-12-06
+91,52,Female,Orthopedics,Stroke,135079,9,0,5,2025-05-15
+92,80,Female,Oncology,Fracture,163746,10,0,4,2024-06-22
+93,18,Female,Cardiology,Heart Attack,59673,15,0,2,2023-10-28
+94,47,Male,Cardiology,Diabetes,17909,9,0,5,2025-04-11
+95,33,Male,Cardiology,Diabetes,35858,10,0,5,2025-04-05
+96,77,Male,Oncology,Stroke,174385,6,0,5,2024-03-25
+97,83,Male,Surgery,Heart Attack,42714,3,0,2,2025-04-10
+98,79,Female,Orthopedics,Fracture,55105,11,0,4,2025-05-30
+99,70,Female,Cardiology,Fracture,40164,7,0,4,2023-06-20
+100,70,Male,Oncology,Stroke,166522,2,1,5,2024-05-29
+101,50,Female,Orthopedics,Fracture,176324,1,0,4,2025-05-04
+102,61,Male,Neurology,Diabetes,12994,3,0,3,2024-10-14
+103,36,Female,Neurology,Heart Attack,108170,7,0,5,2024-06-30
+104,60,Male,Orthopedics,Stroke,36958,5,0,1,2024-08-16
+105,50,Female,Orthopedics,Heart Attack,198008,5,0,5,2025-03-04
+106,65,Female,Surgery,Stroke,151403,13,1,3,2024-06-24
+107,65,Male,Surgery,Cancer,191612,2,0,5,2024-10-13
+108,49,Female,Cardiology,Stroke,177130,14,0,5,2025-03-26
+109,77,Female,Oncology,Fracture,76611,13,1,3,2024-05-07
+110,70,Female,Orthopedics,Stroke,116255,10,0,1,2025-03-15
+111,50,Female,Oncology,Fracture,123300,14,0,1,2024-12-06
+112,57,Male,Surgery,Diabetes,53150,14,1,5,2024-03-12
+113,25,Male,Cardiology,Fracture,109202,14,0,5,2023-09-28
+114,36,Female,Surgery,Diabetes,68239,8,0,4,2024-09-20
+115,76,Male,Orthopedics,Cancer,34452,2,1,3,2025-01-05
+116,20,Female,Oncology,Cancer,103997,10,1,2,2024-06-28
+117,33,Female,Surgery,Stroke,81802,12,0,4,2024-05-08
+118,52,Female,Orthopedics,Cancer,152549,12,0,5,2024-10-26
+119,85,Male,Orthopedics,Diabetes,179379,5,0,1,2025-04-14
+120,37,Male,Orthopedics,Heart Attack,143190,10,0,1,2024-02-27
+121,32,Male,Oncology,Fracture,147595,14,0,2,2024-12-25
+122,74,Male,Neurology,Cancer,152621,15,0,1,2024-07-18
+123,77,Male,Neurology,Heart Attack,63615,4,0,5,2025-01-16
+124,59,Male,Oncology,Stroke,33041,12,1,2,2024-04-11
+125,48,Female,Surgery,Heart Attack,126746,2,1,1,2024-10-20
+126,66,Male,Oncology,Diabetes,170092,13,1,2,2023-10-22
+127,49,Female,Surgery,Stroke,124918,11,0,5,2023-10-12
+128,30,Female,Cardiology,Diabetes,64183,5,0,2,2024-05-18
+129,34,Female,Orthopedics,Heart Attack,113274,9,0,3,2025-01-16
+130,84,Female,Cardiology,Heart Attack,23062,7,0,2,2023-06-29
+131,36,Female,Oncology,Stroke,161756,2,0,2,2024-07-05
+132,72,Female,Surgery,Fracture,160102,11,0,1,2025-05-08
+133,82,Female,Oncology,Diabetes,70845,10,0,4,2023-10-15
+134,36,Female,Orthopedics,Stroke,187853,10,0,4,2025-01-20
+135,43,Female,Oncology,Heart Attack,193184,3,0,4,2024-06-16
+136,48,Female,Neurology,Diabetes,50466,10,0,3,2023-12-22
+137,87,Male,Surgery,Cancer,66588,4,1,2,2024-09-27
+138,79,Male,Neurology,Stroke,170600,10,1,4,2025-04-03
+139,76,Male,Orthopedics,Diabetes,13142,7,1,3,2024-08-18
+140,71,Female,Oncology,Heart Attack,88149,14,0,4,2024-04-22
+141,76,Female,Neurology,Fracture,16187,6,0,2,2023-08-29
+142,72,Female,Surgery,Heart Attack,42197,6,1,1,2023-10-05
+143,64,Male,Orthopedics,Stroke,199737,6,0,3,2023-11-25
+144,64,Female,Oncology,Stroke,127273,10,1,5,2025-01-02
+145,33,Male,Surgery,Stroke,127437,13,0,2,2024-04-07
+146,51,Male,Cardiology,Cancer,40131,5,1,5,2025-06-04
+147,38,Male,Oncology,Diabetes,126846,8,1,3,2025-04-07
+148,86,Female,Neurology,Fracture,66621,6,1,1,2024-11-22
+149,25,Female,Cardiology,Fracture,109198,5,0,2,2024-07-18
+150,42,Male,Cardiology,Heart Attack,26203,4,1,2,2024-08-02
+151,52,Female,Orthopedics,Heart Attack,119604,15,0,4,2024-10-01
+152,74,Male,Cardiology,Stroke,186674,15,0,2,2024-10-11
+153,61,Male,Cardiology,Cancer,66341,8,0,3,2023-10-11
+154,50,Female,Neurology,Stroke,127181,12,1,2,2025-02-12
+155,85,Female,Neurology,Heart Attack,28606,13,0,5,2024-11-28
+156,61,Male,Surgery,Heart Attack,29174,4,0,1,2023-12-05
+157,39,Female,Orthopedics,Cancer,139585,4,1,4,2025-01-13
+158,38,Female,Neurology,Diabetes,82960,5,0,2,2023-07-01
+159,89,Female,Neurology,Diabetes,177009,10,0,2,2023-12-21
+160,69,Female,Surgery,Fracture,29054,3,1,1,2024-02-28
+161,65,Female,Surgery,Fracture,126383,7,1,1,2023-11-16
+162,56,Male,Surgery,Heart Attack,70244,10,0,3,2023-07-14
+163,75,Male,Orthopedics,Diabetes,125322,4,1,3,2024-11-15
+164,29,Female,Cardiology,Cancer,14204,9,0,1,2024-01-06
+165,76,Female,Orthopedics,Diabetes,112142,13,0,5,2023-09-10
+166,79,Male,Neurology,Cancer,182170,13,1,1,2025-03-03
+167,36,Male,Orthopedics,Heart Attack,174015,11,0,4,2024-02-03
+168,60,Female,Oncology,Diabetes,56851,14,0,4,2023-11-25
+169,89,Female,Orthopedics,Heart Attack,112269,12,1,4,2023-09-01
+170,26,Female,Cardiology,Stroke,152733,9,1,5,2024-11-10
+171,66,Female,Orthopedics,Heart Attack,179662,11,0,5,2023-12-12
+172,36,Male,Cardiology,Heart Attack,48046,14,1,3,2024-07-31
+173,83,Male,Oncology,Diabetes,53055,1,0,5,2024-07-26
+174,54,Female,Surgery,Stroke,116932,13,0,1,2024-09-02
+175,63,Male,Oncology,Heart Attack,130527,12,1,4,2024-01-22
+176,62,Female,Orthopedics,Stroke,90844,10,0,4,2024-10-21
+177,69,Male,Cardiology,Fracture,73422,7,0,4,2024-05-19
+178,59,Male,Neurology,Diabetes,166527,5,0,2,2025-05-05
+179,41,Male,Surgery,Cancer,18866,6,0,4,2024-01-21
+180,32,Female,Cardiology,Fracture,142411,8,0,4,2023-10-02
+181,35,Female,Orthopedics,Stroke,111945,14,1,5,2023-09-03
+182,39,Female,Neurology,Diabetes,28023,2,1,3,2024-06-03
+183,65,Male,Cardiology,Stroke,189702,2,1,4,2023-08-13
+184,51,Male,Oncology,Diabetes,50312,6,0,4,2025-04-16
+185,90,Female,Oncology,Diabetes,119295,5,1,4,2024-12-11
+186,46,Male,Surgery,Cancer,41247,5,0,2,2023-06-22
+187,32,Male,Orthopedics,Stroke,51244,3,0,3,2025-01-23
+188,67,Male,Surgery,Heart Attack,188204,2,0,4,2024-03-13
+189,48,Male,Neurology,Cancer,91261,11,0,4,2023-11-27
+190,41,Female,Cardiology,Fracture,137915,14,0,1,2023-12-12
+191,83,Male,Orthopedics,Fracture,139876,5,1,5,2023-06-11
+192,44,Female,Surgery,Heart Attack,167241,13,0,3,2023-12-17
+193,63,Male,Neurology,Cancer,95711,5,0,5,2025-05-22
+194,85,Female,Cardiology,Fracture,24165,14,1,4,2023-06-18
+195,40,Female,Orthopedics,Diabetes,167359,10,0,5,2024-01-08
+196,80,Male,Orthopedics,Fracture,37670,14,0,2,2025-04-16
+197,40,Female,Surgery,Fracture,169284,12,1,1,2024-05-20
+198,88,Male,Orthopedics,Cancer,160374,2,0,1,2023-07-19
+199,37,Male,Oncology,Stroke,166985,10,0,5,2023-08-31
+200,20,Male,Surgery,Stroke,19166,12,0,4,2024-08-15
+201,87,Male,Neurology,Heart Attack,135250,1,0,5,2025-01-25
+202,18,Male,Orthopedics,Fracture,14119,6,1,5,2025-05-12
+203,33,Female,Surgery,Stroke,123844,2,0,3,2023-09-05
+204,30,Female,Cardiology,Fracture,86135,10,0,4,2024-05-10
+205,29,Female,Oncology,Cancer,87040,7,0,2,2024-12-14
+206,69,Male,Orthopedics,Cancer,75773,5,0,3,2024-06-19
+207,29,Male,Neurology,Stroke,12380,1,0,4,2024-03-16
+208,26,Female,Orthopedics,Heart Attack,199717,14,0,5,2023-09-24
+209,58,Female,Surgery,Diabetes,167721,4,0,1,2024-09-28
+210,33,Female,Surgery,Stroke,17656,14,0,5,2023-06-28
+211,80,Female,Oncology,Cancer,182560,10,0,2,2023-06-19
+212,48,Male,Neurology,Fracture,32900,3,0,4,2024-11-28
+213,81,Male,Oncology,Fracture,147866,10,0,4,2024-04-06
+214,84,Female,Orthopedics,Heart Attack,109698,12,1,5,2024-06-11
+215,82,Female,Cardiology,Diabetes,138484,4,1,2,2024-10-06
+216,58,Female,Orthopedics,Fracture,107553,6,1,3,2024-01-07
+217,35,Female,Neurology,Heart Attack,121536,2,0,2,2025-03-23
+218,58,Female,Oncology,Diabetes,191757,7,0,2,2023-12-05
+219,47,Male,Cardiology,Stroke,19123,13,1,5,2024-03-11
+220,20,Female,Orthopedics,Heart Attack,146744,8,0,3,2025-05-05
+221,40,Female,Surgery,Cancer,85351,9,1,3,2024-04-30
+222,44,Female,Orthopedics,Stroke,121093,7,1,1,2024-02-18
+223,53,Female,Neurology,Diabetes,47500,2,0,1,2023-08-16
+224,69,Female,Cardiology,Heart Attack,177367,13,0,5,2023-11-11
+225,31,Female,Neurology,Stroke,99441,10,0,1,2023-07-16
+226,30,Male,Neurology,Heart Attack,29763,6,0,4,2024-02-13
+227,41,Female,Oncology,Stroke,118643,1,0,1,2024-10-14
+228,22,Female,Neurology,Diabetes,151088,1,1,5,2024-05-21
+229,62,Female,Neurology,Cancer,113051,4,0,1,2023-12-10
+230,59,Male,Neurology,Fracture,101596,11,0,4,2025-04-15
+231,26,Male,Orthopedics,Stroke,180139,13,0,2,2024-02-14
+232,34,Male,Surgery,Diabetes,65028,1,1,5,2024-12-03
+233,41,Male,Orthopedics,Heart Attack,150563,5,0,4,2024-11-18
+234,76,Female,Neurology,Stroke,145188,9,1,1,2023-12-21
+235,83,Male,Neurology,Heart Attack,74786,3,0,4,2023-09-26
+236,73,Male,Cardiology,Fracture,45432,7,0,1,2024-03-01
+237,55,Male,Orthopedics,Heart Attack,65487,4,0,1,2023-08-01
+238,24,Female,Surgery,Diabetes,172889,2,0,5,2024-07-18
+239,61,Male,Neurology,Cancer,53553,1,0,5,2023-10-30
+240,66,Female,Surgery,Stroke,79815,3,1,4,2023-11-04
+241,22,Male,Cardiology,Heart Attack,19877,2,0,1,2024-11-25
+242,36,Female,Cardiology,Cancer,152100,15,0,5,2024-01-08
+243,28,Male,Oncology,Stroke,92997,7,0,5,2023-10-29
+244,28,Female,Cardiology,Heart Attack,52554,15,0,4,2024-03-14
+245,28,Female,Orthopedics,Cancer,61109,13,0,3,2023-12-05
+246,53,Female,Cardiology,Heart Attack,74760,5,0,4,2024-03-06
+247,39,Male,Oncology,Heart Attack,145359,8,0,2,2025-02-16
+248,51,Female,Oncology,Diabetes,178114,10,1,2,2023-12-22
+249,38,Male,Oncology,Fracture,111640,10,0,4,2024-06-04
+250,53,Male,Neurology,Stroke,57737,9,1,4,2024-09-17
+251,79,Female,Orthopedics,Cancer,130779,12,0,1,2024-03-26
+252,22,Male,Surgery,Diabetes,195378,13,0,5,2024-06-11
+253,64,Male,Neurology,Cancer,12279,12,0,1,2024-08-07
+254,38,Female,Oncology,Fracture,99494,15,0,5,2023-12-31
+255,36,Male,Orthopedics,Stroke,158098,8,0,5,2023-12-06
+256,55,Male,Cardiology,Stroke,178688,10,1,4,2023-11-03
+257,47,Male,Cardiology,Cancer,182942,15,0,5,2024-09-04
+258,86,Female,Oncology,Diabetes,90362,12,0,1,2024-08-09
+259,49,Male,Neurology,Heart Attack,191866,15,0,2,2023-07-26
+260,72,Male,Neurology,Fracture,176173,13,1,4,2025-05-08
+261,63,Male,Orthopedics,Stroke,121526,4,1,4,2024-09-01
+262,43,Male,Oncology,Fracture,89405,14,0,5,2024-11-08
+263,66,Male,Neurology,Cancer,181202,2,1,3,2024-07-07
+264,84,Female,Cardiology,Heart Attack,52971,8,0,4,2024-11-28
+265,32,Female,Orthopedics,Heart Attack,151242,1,0,4,2024-03-24
+266,32,Female,Surgery,Diabetes,130283,7,1,1,2024-10-04
+267,37,Female,Cardiology,Heart Attack,30927,6,0,5,2023-12-10
+268,29,Female,Surgery,Stroke,54674,1,0,4,2025-05-08
+269,90,Female,Surgery,Heart Attack,132848,13,0,3,2023-07-15
+270,51,Female,Orthopedics,Stroke,151363,8,0,4,2024-10-09
+271,79,Male,Orthopedics,Fracture,26965,13,0,5,2024-02-16
+272,90,Male,Orthopedics,Heart Attack,135578,10,1,3,2023-12-16
+273,49,Male,Cardiology,Diabetes,115641,11,0,5,2024-01-25
+274,51,Female,Oncology,Diabetes,93533,2,0,4,2023-07-08
+275,61,Male,Orthopedics,Fracture,106823,3,1,4,2024-10-09
+276,70,Female,Orthopedics,Heart Attack,174338,3,0,2,2023-10-21
+277,34,Female,Cardiology,Cancer,20559,5,0,5,2023-06-25
+278,50,Female,Cardiology,Heart Attack,41009,14,0,1,2024-06-04
+279,20,Male,Neurology,Heart Attack,144531,8,0,5,2024-12-24
+280,36,Male,Cardiology,Fracture,191984,11,0,1,2024-08-13
+281,71,Female,Surgery,Heart Attack,65798,15,0,2,2024-03-29
+282,47,Female,Surgery,Diabetes,36616,13,0,1,2024-05-28
+283,38,Female,Surgery,Cancer,63725,2,0,4,2023-06-17
+284,37,Female,Surgery,Heart Attack,190350,2,1,5,2024-12-30
+285,61,Female,Neurology,Stroke,145265,3,1,3,2024-03-02
+286,27,Male,Orthopedics,Diabetes,74492,5,0,1,2024-01-25
+287,84,Male,Cardiology,Stroke,33568,1,1,3,2024-01-20
+288,24,Male,Surgery,Diabetes,30360,5,1,5,2024-08-05
+289,74,Male,Orthopedics,Heart Attack,43970,5,0,3,2024-12-06
+290,78,Male,Cardiology,Diabetes,16881,7,0,1,2023-10-01
+291,26,Male,Oncology,Heart Attack,77262,3,1,4,2023-09-19
+292,74,Female,Surgery,Diabetes,61129,7,1,1,2025-05-22
+293,66,Male,Neurology,Heart Attack,30479,4,0,5,2023-07-07
+294,36,Male,Neurology,Fracture,154644,8,0,3,2024-02-06
+295,76,Female,Surgery,Stroke,144478,9,0,4,2025-04-30
+296,65,Male,Orthopedics,Stroke,116694,9,0,4,2024-01-25
+297,78,Female,Cardiology,Cancer,134759,13,1,1,2023-07-09
+298,69,Female,Neurology,Fracture,136643,9,0,5,2024-11-29
+299,56,Female,Cardiology,Diabetes,150933,1,0,3,2024-05-28
+300,49,Male,Oncology,Stroke,46655,9,0,1,2023-08-02
+301,33,Female,Oncology,Heart Attack,118838,9,0,2,2025-05-03
+302,65,Female,Cardiology,Fracture,177399,5,0,5,2023-11-09
+303,67,Female,Surgery,Cancer,42212,7,0,1,2024-06-11
+304,22,Female,Neurology,Fracture,172111,4,0,4,2023-11-09
+305,49,Female,Cardiology,Diabetes,134891,15,0,5,2024-10-29
+306,65,Male,Cardiology,Diabetes,24431,8,0,4,2025-01-31
+307,87,Male,Surgery,Cancer,40652,12,0,5,2024-02-19
+308,80,Male,Cardiology,Heart Attack,25305,14,0,3,2025-05-04
+309,65,Female,Oncology,Fracture,167759,6,1,5,2024-12-03
+310,29,Male,Surgery,Diabetes,65101,15,0,5,2024-08-12
+311,36,Male,Cardiology,Stroke,66267,11,0,1,2024-09-27
+312,74,Female,Orthopedics,Stroke,131941,7,0,4,2023-11-27
+313,60,Female,Surgery,Heart Attack,101082,11,0,1,2023-07-27
+314,57,Male,Cardiology,Heart Attack,121038,2,0,2,2024-06-21
+315,86,Male,Neurology,Cancer,98000,13,1,1,2024-09-04
+316,25,Female,Cardiology,Cancer,45749,7,0,2,2024-05-12
+317,40,Male,Oncology,Cancer,68629,13,0,3,2024-12-15
+318,50,Female,Oncology,Fracture,148942,5,0,2,2024-09-19
+319,75,Male,Cardiology,Fracture,89220,13,0,5,2023-09-25
+320,79,Male,Surgery,Stroke,136528,13,0,2,2024-03-03
+321,39,Female,Surgery,Heart Attack,152586,8,0,5,2024-07-10
+322,90,Male,Cardiology,Fracture,154286,6,0,3,2025-02-05
+323,78,Female,Surgery,Cancer,158457,8,1,1,2025-03-16
+324,69,Female,Cardiology,Heart Attack,53603,7,1,4,2024-09-09
+325,44,Female,Oncology,Fracture,194810,15,0,2,2024-11-08
+326,28,Female,Neurology,Fracture,172741,4,1,2,2023-10-29
+327,57,Male,Oncology,Fracture,85681,15,0,2,2024-10-30
+328,18,Male,Orthopedics,Fracture,43058,7,0,3,2024-12-15
+329,19,Male,Cardiology,Diabetes,185577,1,1,1,2024-10-06
+330,65,Male,Neurology,Heart Attack,97300,9,0,1,2023-07-26
+331,70,Female,Oncology,Stroke,14485,4,1,5,2025-04-30
+332,87,Male,Oncology,Stroke,138368,3,1,4,2024-07-29
+333,27,Female,Orthopedics,Fracture,46614,14,0,1,2023-10-09
+334,56,Male,Cardiology,Heart Attack,58859,6,0,3,2023-08-21
+335,48,Male,Orthopedics,Cancer,111314,8,0,2,2025-02-04
+336,74,Female,Surgery,Diabetes,17232,7,0,1,2023-12-12
+337,56,Female,Orthopedics,Fracture,59819,14,0,2,2023-06-30
+338,34,Male,Surgery,Heart Attack,173542,9,0,1,2024-05-03
+339,73,Female,Cardiology,Heart Attack,182619,2,0,4,2023-09-14
+340,42,Female,Neurology,Heart Attack,40470,14,1,5,2023-12-27
+341,44,Female,Surgery,Heart Attack,80891,9,0,5,2025-01-05
+342,25,Male,Neurology,Cancer,71111,14,0,3,2024-12-27
+343,62,Female,Surgery,Heart Attack,50247,7,0,4,2023-10-11
+344,77,Male,Surgery,Diabetes,123921,4,0,4,2024-04-13
+345,46,Male,Oncology,Heart Attack,140630,15,0,1,2023-07-11
+346,62,Female,Neurology,Heart Attack,15451,2,1,5,2024-12-09
+347,54,Male,Cardiology,Cancer,69998,4,1,5,2024-05-24
+348,29,Female,Cardiology,Cancer,10559,8,0,4,2025-03-18
+349,83,Female,Surgery,Cancer,21467,12,0,4,2024-10-25
+350,59,Female,Neurology,Diabetes,44837,5,0,3,2024-08-18
+351,22,Male,Orthopedics,Diabetes,164830,15,0,1,2024-11-21
+352,58,Male,Oncology,Cancer,196886,10,0,4,2023-09-20
+353,40,Male,Oncology,Fracture,146056,8,0,1,2025-06-07
+354,58,Female,Orthopedics,Stroke,87461,3,0,5,2023-08-20
+355,83,Male,Oncology,Cancer,149018,3,1,1,2025-04-18
+356,73,Male,Orthopedics,Stroke,40672,2,1,3,2025-02-18
+357,60,Female,Surgery,Stroke,188071,7,1,3,2023-12-29
+358,62,Male,Oncology,Heart Attack,171895,7,1,5,2025-02-06
+359,26,Female,Orthopedics,Diabetes,173707,7,0,4,2023-07-27
+360,20,Female,Cardiology,Diabetes,116694,15,0,2,2024-03-06
+361,53,Male,Neurology,Fracture,170807,15,0,5,2023-07-16
+362,38,Female,Surgery,Fracture,50205,5,0,5,2025-05-29
+363,38,Male,Surgery,Cancer,16212,12,0,3,2024-03-28
+364,80,Male,Surgery,Heart Attack,184267,13,1,1,2025-02-28
+365,68,Male,Oncology,Fracture,125064,14,0,4,2023-10-21
+366,81,Male,Oncology,Stroke,126741,5,0,2,2023-09-01
+367,37,Female,Orthopedics,Heart Attack,87937,5,0,2,2025-03-15
+368,74,Female,Surgery,Fracture,30388,13,1,3,2023-08-18
+369,50,Female,Orthopedics,Fracture,53626,5,0,4,2023-07-20
+370,33,Female,Orthopedics,Diabetes,107304,9,0,2,2025-03-28
+371,53,Male,Oncology,Heart Attack,123284,15,0,1,2024-03-05
+372,36,Male,Cardiology,Diabetes,174007,1,0,4,2024-05-17
+373,81,Male,Neurology,Stroke,40469,1,0,5,2025-02-18
+374,49,Male,Neurology,Cancer,182558,9,0,1,2024-09-02
+375,65,Male,Surgery,Heart Attack,150437,12,0,4,2024-12-07
+376,53,Female,Oncology,Fracture,108923,6,0,3,2024-11-15
+377,20,Male,Oncology,Fracture,112768,1,0,5,2024-07-05
+378,84,Female,Neurology,Diabetes,109898,7,0,4,2024-06-04
+379,63,Female,Orthopedics,Stroke,108667,3,0,4,2023-12-08
+380,87,Female,Surgery,Diabetes,91826,3,1,5,2025-05-16
+381,65,Female,Oncology,Fracture,22363,12,0,3,2024-06-10
+382,63,Male,Oncology,Diabetes,95365,15,0,3,2024-05-15
+383,53,Female,Surgery,Stroke,38908,14,0,5,2023-12-24
+384,59,Male,Surgery,Fracture,50245,10,0,1,2023-08-05
+385,57,Male,Neurology,Stroke,10379,1,0,5,2024-10-01
+386,80,Female,Neurology,Fracture,150614,4,0,1,2024-12-17
+387,78,Male,Surgery,Heart Attack,43142,3,0,2,2025-01-02
+388,27,Male,Oncology,Diabetes,132730,10,0,1,2023-07-14
+389,77,Female,Cardiology,Heart Attack,191064,2,0,3,2025-01-10
+390,70,Female,Oncology,Heart Attack,20417,9,1,3,2023-10-02
+391,81,Female,Oncology,Fracture,179997,10,0,2,2025-03-28
+392,66,Male,Orthopedics,Cancer,168782,7,1,5,2024-07-28
+393,60,Male,Orthopedics,Heart Attack,150027,8,1,2,2023-12-05
+394,88,Male,Cardiology,Heart Attack,153695,2,1,5,2024-08-13
+395,82,Male,Neurology,Diabetes,105227,11,0,2,2023-07-17
+396,75,Female,Neurology,Stroke,159811,2,1,4,2024-11-04
+397,78,Male,Oncology,Diabetes,68737,14,0,5,2025-05-17
+398,86,Female,Surgery,Stroke,32228,1,0,3,2023-11-21
+399,54,Male,Oncology,Diabetes,113523,4,1,4,2024-04-22
+400,57,Male,Oncology,Diabetes,137996,9,1,2,2024-02-21
+401,66,Female,Cardiology,Fracture,172805,9,0,1,2024-10-10
+402,33,Male,Neurology,Cancer,111044,14,0,4,2025-02-23
+403,30,Male,Orthopedics,Diabetes,29129,2,0,5,2024-09-03
+404,48,Male,Orthopedics,Fracture,77613,3,0,5,2025-05-09
+405,85,Male,Neurology,Stroke,145557,5,1,1,2025-03-13
+406,54,Female,Orthopedics,Heart Attack,74270,3,0,3,2025-06-07
+407,37,Female,Oncology,Stroke,37972,5,0,4,2024-12-24
+408,53,Female,Neurology,Diabetes,75489,15,0,4,2025-05-07
+409,18,Female,Neurology,Diabetes,54265,3,0,1,2023-06-10
+410,74,Female,Oncology,Stroke,95943,12,0,5,2025-04-22
+411,83,Female,Surgery,Stroke,72344,8,0,3,2024-12-20
+412,76,Male,Surgery,Heart Attack,16382,11,1,2,2023-11-09
+413,65,Female,Orthopedics,Heart Attack,144895,3,0,4,2023-11-05
+414,40,Female,Neurology,Cancer,109086,11,1,3,2023-07-05
+415,55,Male,Neurology,Fracture,129228,2,0,4,2024-06-26
+416,67,Female,Oncology,Stroke,157241,4,0,3,2023-09-13
+417,66,Male,Oncology,Fracture,105812,7,1,3,2025-01-13
+418,70,Female,Neurology,Cancer,69529,13,0,3,2023-10-18
+419,50,Female,Neurology,Fracture,88859,13,1,1,2024-12-15
+420,40,Female,Cardiology,Cancer,42864,8,0,3,2025-04-30
+421,83,Female,Surgery,Stroke,97828,2,1,4,2024-06-20
+422,49,Male,Neurology,Stroke,142421,9,0,1,2024-04-03
+423,48,Male,Cardiology,Heart Attack,167430,10,0,3,2024-08-29
+424,82,Male,Orthopedics,Heart Attack,62450,12,0,4,2023-09-04
+425,79,Female,Oncology,Stroke,187127,6,1,1,2024-10-31
+426,61,Male,Neurology,Heart Attack,181382,13,0,2,2023-11-13
+427,57,Female,Neurology,Heart Attack,171800,7,0,2,2025-05-12
+428,88,Male,Orthopedics,Stroke,13257,13,1,3,2024-11-25
+429,58,Male,Cardiology,Heart Attack,93347,7,1,3,2023-11-16
+430,78,Male,Orthopedics,Stroke,110245,9,0,1,2024-03-21
+431,52,Male,Cardiology,Stroke,114806,15,0,4,2024-10-03
+432,63,Female,Surgery,Cancer,166064,15,1,1,2025-03-23
+433,56,Male,Oncology,Cancer,14881,14,1,4,2025-01-08
+434,24,Male,Cardiology,Stroke,140095,14,0,4,2023-07-16
+435,70,Male,Surgery,Fracture,26862,2,0,2,2024-05-20
+436,83,Female,Orthopedics,Stroke,40098,13,0,1,2025-03-01
+437,54,Female,Neurology,Fracture,40341,15,0,4,2024-11-01
+438,85,Male,Oncology,Stroke,56181,9,0,2,2025-02-28
+439,43,Female,Orthopedics,Cancer,160643,3,0,4,2025-04-09
+440,82,Male,Orthopedics,Diabetes,143028,11,0,1,2024-06-09
+441,43,Female,Neurology,Cancer,75886,10,1,1,2024-04-23
+442,59,Female,Orthopedics,Heart Attack,72705,7,0,4,2024-04-01
+443,36,Male,Surgery,Heart Attack,183803,2,0,1,2025-03-11
+444,22,Male,Cardiology,Stroke,162879,12,0,2,2025-01-27
+445,27,Male,Cardiology,Diabetes,91506,13,0,3,2024-08-24
+446,47,Female,Oncology,Fracture,154587,13,0,2,2023-07-18
+447,80,Male,Oncology,Diabetes,161904,11,1,5,2024-05-16
+448,90,Female,Oncology,Cancer,106268,8,1,5,2023-11-16
+449,44,Male,Oncology,Cancer,125590,9,0,3,2024-02-07
+450,66,Male,Cardiology,Heart Attack,197787,7,0,3,2024-04-11
+451,89,Female,Orthopedics,Stroke,86084,6,0,2,2024-01-12
+452,54,Female,Surgery,Diabetes,146907,4,0,5,2024-07-15
+453,50,Male,Oncology,Stroke,12869,11,0,3,2023-10-10
+454,70,Male,Oncology,Cancer,48873,8,0,2,2025-05-18
+455,56,Female,Surgery,Fracture,130445,4,0,1,2024-03-19
+456,52,Female,Neurology,Stroke,127683,1,0,3,2025-02-25
+457,24,Male,Cardiology,Heart Attack,52279,13,1,1,2024-03-04
+458,71,Male,Surgery,Fracture,179024,9,0,3,2023-07-26
+459,68,Male,Neurology,Heart Attack,175355,8,0,3,2025-03-03
+460,75,Female,Surgery,Stroke,192431,14,0,1,2025-04-08
+461,76,Male,Orthopedics,Diabetes,71344,3,0,1,2024-11-01
+462,25,Female,Neurology,Heart Attack,188950,14,1,3,2024-08-16
+463,63,Female,Cardiology,Stroke,139033,8,1,4,2024-08-27
+464,31,Female,Surgery,Diabetes,68104,9,0,3,2023-08-26
+465,87,Male,Cardiology,Fracture,62793,9,1,3,2023-09-10
+466,34,Male,Orthopedics,Diabetes,123552,13,0,3,2024-08-21
+467,20,Female,Orthopedics,Diabetes,147597,15,0,3,2024-07-18
+468,70,Female,Orthopedics,Heart Attack,91602,11,1,1,2024-05-08
+469,23,Male,Oncology,Stroke,24658,9,0,1,2024-01-05
+470,42,Female,Cardiology,Fracture,103049,6,0,3,2023-10-05
+471,63,Female,Surgery,Diabetes,197088,4,0,1,2023-07-20
+472,33,Male,Surgery,Stroke,122474,14,0,1,2025-01-06
+473,88,Female,Cardiology,Fracture,164550,3,0,5,2024-12-07
+474,67,Male,Oncology,Heart Attack,107654,10,0,5,2024-07-13
+475,27,Female,Orthopedics,Diabetes,183157,15,0,4,2024-09-04
+476,87,Male,Surgery,Diabetes,117781,10,0,5,2024-03-21
+477,82,Male,Neurology,Stroke,182720,11,0,4,2023-10-05
+478,78,Male,Surgery,Diabetes,123526,8,0,3,2024-10-21
+479,73,Male,Surgery,Fracture,59459,5,0,1,2024-02-17
+480,37,Male,Neurology,Stroke,70655,7,0,1,2024-01-10
+481,75,Male,Orthopedics,Diabetes,72542,8,0,2,2024-10-18
+482,33,Male,Orthopedics,Stroke,191675,7,0,4,2024-06-25
+483,85,Female,Oncology,Diabetes,145014,2,0,5,2024-07-15
+484,56,Female,Cardiology,Fracture,31057,9,0,3,2025-04-17
+485,75,Male,Surgery,Fracture,69550,13,1,3,2024-02-01
+486,57,Female,Oncology,Cancer,91251,9,0,4,2023-08-03
+487,43,Male,Surgery,Stroke,176636,8,1,1,2024-11-04
+488,77,Female,Cardiology,Diabetes,183430,14,1,5,2025-03-17
+489,59,Male,Orthopedics,Stroke,19201,13,0,5,2023-12-05
+490,31,Male,Neurology,Cancer,16927,10,0,2,2023-10-31
+491,29,Male,Orthopedics,Heart Attack,159753,11,0,4,2024-11-30
+492,82,Male,Surgery,Cancer,176288,9,1,3,2024-07-04
+493,52,Male,Cardiology,Fracture,97995,6,0,5,2023-10-07
+494,86,Female,Oncology,Cancer,110568,15,1,1,2024-10-12
+495,30,Female,Orthopedics,Cancer,58632,13,1,4,2024-08-29
+496,75,Male,Surgery,Fracture,142155,3,1,1,2023-08-31
+497,19,Male,Surgery,Cancer,143171,15,0,4,2025-02-27
+498,76,Male,Surgery,Fracture,166619,2,0,3,2024-06-07
+499,85,Male,Cardiology,Cancer,35601,13,1,2,2024-09-20
+500,88,Male,Oncology,Diabetes,182148,14,0,2,2025-01-08
+501,19,Male,Neurology,Cancer,59842,3,1,4,2024-09-04
+502,34,Male,Surgery,Diabetes,170706,12,0,1,2023-08-16
+503,45,Male,Neurology,Cancer,12352,5,1,2,2023-12-15
+504,86,Female,Orthopedics,Heart Attack,39365,5,0,3,2025-02-16
+505,45,Female,Orthopedics,Diabetes,27595,8,0,3,2023-12-23
+506,51,Male,Orthopedics,Diabetes,111977,3,0,2,2024-12-30
+507,40,Male,Oncology,Diabetes,109818,2,0,4,2024-05-15
+508,70,Male,Surgery,Diabetes,77835,5,1,5,2023-10-30
+509,81,Female,Neurology,Heart Attack,193686,12,0,3,2024-12-31
+510,65,Male,Cardiology,Heart Attack,70962,13,0,2,2024-10-06
+511,69,Female,Oncology,Stroke,28006,10,0,4,2023-12-29
+512,70,Female,Neurology,Fracture,33127,5,1,3,2025-04-22
+513,66,Female,Oncology,Stroke,126893,5,1,2,2024-03-18
+514,77,Male,Orthopedics,Heart Attack,62061,9,1,5,2023-09-18
+515,33,Female,Oncology,Fracture,134714,13,1,4,2023-12-15
+516,42,Male,Oncology,Diabetes,62433,10,0,3,2024-10-23
+517,55,Female,Cardiology,Stroke,191378,5,1,2,2024-07-18
+518,90,Female,Oncology,Cancer,71442,12,1,1,2024-05-27
+519,20,Male,Surgery,Diabetes,81212,8,0,1,2025-02-14
+520,61,Female,Neurology,Heart Attack,187527,2,0,2,2024-02-08
+521,47,Female,Oncology,Fracture,132229,7,0,3,2025-02-27
+522,61,Female,Cardiology,Diabetes,118361,2,1,3,2024-11-17
+523,83,Male,Orthopedics,Diabetes,168182,5,0,5,2024-06-11
+524,77,Female,Surgery,Diabetes,138077,12,1,3,2024-06-04
+525,68,Male,Neurology,Stroke,161310,4,0,3,2025-04-12
+526,77,Female,Surgery,Heart Attack,94562,11,0,4,2024-10-11
+527,56,Female,Orthopedics,Fracture,154745,2,1,1,2023-06-25
+528,90,Female,Surgery,Heart Attack,105701,4,0,1,2024-12-08
+529,65,Male,Surgery,Diabetes,78004,9,1,1,2024-11-27
+530,48,Female,Cardiology,Fracture,130606,2,0,4,2024-09-17
+531,49,Female,Neurology,Stroke,26341,2,0,4,2024-07-29
+532,70,Female,Surgery,Fracture,130659,8,1,4,2025-03-02
+533,25,Female,Cardiology,Fracture,198422,4,0,5,2024-07-03
+534,61,Female,Cardiology,Heart Attack,26450,13,0,1,2023-12-18
+535,50,Male,Oncology,Heart Attack,153351,2,0,4,2024-01-23
+536,42,Female,Oncology,Diabetes,182758,3,0,2,2024-02-18
+537,18,Female,Orthopedics,Diabetes,58222,6,0,5,2024-08-11
+538,68,Male,Oncology,Stroke,60966,15,1,3,2025-01-25
+539,45,Female,Cardiology,Fracture,155192,2,0,2,2024-10-15
+540,45,Female,Surgery,Stroke,20977,5,1,4,2024-07-24
+541,20,Female,Neurology,Stroke,14767,1,0,2,2025-02-10
+542,40,Female,Oncology,Heart Attack,155809,6,0,4,2025-04-24
+543,89,Male,Orthopedics,Diabetes,159003,1,1,1,2023-12-14
+544,28,Female,Orthopedics,Fracture,190610,11,0,3,2024-06-08
+545,45,Male,Oncology,Heart Attack,39145,3,0,5,2025-01-29
+546,73,Female,Oncology,Diabetes,194944,14,1,2,2025-01-18
+547,28,Male,Neurology,Fracture,10723,2,0,3,2024-08-04
+548,33,Female,Cardiology,Cancer,11702,10,0,4,2024-05-19
+549,61,Male,Surgery,Stroke,24477,11,0,2,2025-03-23
+550,20,Male,Orthopedics,Diabetes,22411,7,0,5,2023-09-09
+551,59,Female,Cardiology,Stroke,34034,7,0,5,2024-03-19
+552,77,Female,Oncology,Cancer,133767,5,0,3,2024-12-13
+553,43,Female,Cardiology,Diabetes,121112,5,0,2,2024-09-30
+554,28,Male,Neurology,Heart Attack,139422,8,0,2,2024-09-10
+555,50,Male,Neurology,Cancer,93357,10,0,4,2024-01-30
+556,81,Male,Neurology,Stroke,76744,3,1,2,2025-05-20
+557,73,Male,Oncology,Fracture,81693,9,1,4,2023-08-29
+558,55,Male,Orthopedics,Stroke,149037,9,1,1,2025-05-30
+559,68,Female,Oncology,Heart Attack,49077,10,1,3,2024-01-18
+560,66,Female,Neurology,Stroke,65927,8,1,1,2024-07-14
+561,88,Female,Cardiology,Cancer,30951,4,0,1,2023-09-05
+562,70,Female,Orthopedics,Fracture,46036,14,0,3,2025-04-18
+563,71,Female,Neurology,Diabetes,14606,8,0,5,2024-03-26
+564,54,Male,Cardiology,Cancer,140704,6,0,4,2023-09-05
+565,23,Male,Cardiology,Heart Attack,144361,4,0,3,2023-06-14
+566,78,Female,Neurology,Fracture,130750,4,0,5,2023-09-08
+567,40,Female,Cardiology,Diabetes,152809,7,0,2,2024-01-17
+568,64,Female,Oncology,Fracture,174783,2,0,5,2023-06-24
+569,45,Female,Neurology,Fracture,66795,2,0,4,2025-04-30
+570,73,Female,Cardiology,Heart Attack,168341,11,0,4,2024-01-28
+571,20,Female,Cardiology,Diabetes,104992,8,0,4,2024-10-24
+572,67,Female,Surgery,Fracture,38645,12,0,4,2024-08-18
+573,21,Female,Neurology,Heart Attack,96677,14,0,5,2025-02-17
+574,22,Female,Surgery,Heart Attack,114774,15,0,4,2024-06-25
+575,90,Male,Oncology,Diabetes,130588,1,1,3,2024-12-05
+576,34,Female,Surgery,Diabetes,53438,5,0,5,2024-05-17
+577,65,Male,Surgery,Fracture,147859,14,1,3,2023-10-28
+578,50,Female,Cardiology,Stroke,71781,12,0,3,2025-05-02
+579,54,Male,Neurology,Heart Attack,76704,12,1,5,2023-09-28
+580,83,Male,Oncology,Diabetes,112260,9,0,2,2025-02-06
+581,35,Male,Oncology,Fracture,112360,5,0,1,2023-12-26
+582,77,Male,Neurology,Heart Attack,109134,14,0,4,2025-04-28
+583,87,Male,Cardiology,Stroke,147299,3,0,2,2024-11-17
+584,31,Male,Neurology,Cancer,164777,12,0,4,2024-05-16
+585,63,Female,Neurology,Fracture,56949,14,1,2,2023-09-13
+586,57,Male,Neurology,Fracture,134091,4,1,5,2024-04-11
+587,64,Female,Orthopedics,Heart Attack,184575,6,0,1,2024-07-13
+588,68,Female,Neurology,Fracture,51911,12,0,4,2023-08-17
+589,20,Male,Neurology,Heart Attack,133468,2,0,3,2023-10-15
+590,90,Female,Orthopedics,Cancer,97174,15,0,2,2023-12-29
+591,66,Female,Cardiology,Cancer,175758,2,0,2,2023-11-26
+592,22,Female,Cardiology,Heart Attack,42928,1,1,4,2024-09-16
+593,36,Male,Cardiology,Cancer,82794,9,1,4,2024-04-21
+594,43,Male,Cardiology,Cancer,41033,10,0,3,2023-12-15
+595,34,Male,Surgery,Fracture,80813,14,0,5,2025-02-15
+596,48,Female,Oncology,Diabetes,18453,13,0,4,2024-09-04
+597,57,Male,Oncology,Fracture,188661,1,0,1,2025-03-08
+598,29,Female,Oncology,Diabetes,44380,3,0,3,2024-07-18
+599,48,Female,Neurology,Stroke,95463,10,1,1,2024-05-29
+600,66,Male,Cardiology,Stroke,137333,3,0,4,2025-05-29
+601,61,Female,Oncology,Stroke,173178,5,0,1,2023-08-02
+602,87,Female,Surgery,Cancer,106086,9,1,5,2023-07-06
+603,80,Female,Orthopedics,Cancer,24092,8,0,5,2023-08-28
+604,50,Male,Oncology,Fracture,150423,7,0,4,2025-02-20
+605,59,Male,Oncology,Fracture,20614,2,1,2,2025-02-27
+606,21,Male,Surgery,Cancer,133645,11,0,3,2024-01-31
+607,81,Male,Oncology,Fracture,136187,4,1,5,2024-07-25
+608,19,Female,Orthopedics,Fracture,140635,10,0,5,2024-12-27
+609,28,Female,Neurology,Heart Attack,134933,12,0,1,2025-02-26
+610,75,Male,Surgery,Heart Attack,19755,13,0,3,2023-08-29
+611,69,Male,Orthopedics,Cancer,128517,13,1,5,2024-02-14
+612,90,Female,Surgery,Diabetes,195846,6,0,5,2025-02-03
+613,65,Male,Orthopedics,Fracture,130435,4,0,5,2024-12-06
+614,20,Male,Orthopedics,Fracture,164009,4,0,4,2024-09-11
+615,38,Female,Surgery,Heart Attack,163056,10,0,4,2024-04-12
+616,53,Female,Oncology,Diabetes,44273,5,0,3,2023-12-11
+617,85,Male,Oncology,Diabetes,156573,8,0,1,2023-08-26
+618,88,Male,Orthopedics,Fracture,99208,13,0,3,2024-06-13
+619,52,Female,Orthopedics,Diabetes,89020,2,0,2,2024-01-16
+620,77,Male,Neurology,Cancer,48787,5,1,3,2023-12-15
+621,25,Female,Orthopedics,Heart Attack,126507,2,0,5,2024-02-02
+622,35,Female,Cardiology,Heart Attack,76164,15,0,3,2024-01-14
+623,23,Female,Neurology,Stroke,151917,4,0,2,2024-01-01
+624,30,Female,Neurology,Diabetes,103775,13,0,4,2024-05-14
+625,90,Male,Neurology,Cancer,35027,7,0,2,2023-11-19
+626,62,Female,Oncology,Stroke,24800,5,1,3,2025-05-22
+627,86,Female,Oncology,Diabetes,74765,4,0,4,2025-02-06
+628,78,Female,Cardiology,Cancer,22640,6,0,5,2024-04-18
+629,26,Male,Surgery,Heart Attack,141860,9,0,4,2024-08-28
+630,35,Female,Orthopedics,Heart Attack,106950,8,1,5,2024-11-28
+631,74,Male,Oncology,Stroke,125705,5,0,1,2024-09-03
+632,25,Female,Neurology,Diabetes,123475,6,0,3,2023-09-06
+633,87,Male,Surgery,Heart Attack,109144,6,0,2,2024-09-21
+634,44,Female,Cardiology,Stroke,127818,9,1,3,2024-11-10
+635,69,Female,Cardiology,Stroke,122631,7,1,5,2025-02-22
+636,82,Male,Surgery,Fracture,139977,2,0,2,2023-09-27
+637,36,Female,Orthopedics,Fracture,161412,3,0,2,2025-04-19
+638,43,Male,Orthopedics,Cancer,110561,15,0,4,2023-11-26
+639,18,Female,Cardiology,Diabetes,121087,15,1,1,2024-01-13
+640,57,Male,Oncology,Fracture,92156,6,1,5,2023-09-11
+641,67,Male,Oncology,Fracture,109849,9,0,1,2024-05-04
+642,18,Male,Cardiology,Cancer,69689,4,1,3,2024-06-29
+643,27,Male,Surgery,Stroke,163757,5,0,2,2023-06-26
+644,27,Female,Surgery,Heart Attack,127667,5,0,1,2023-09-24
+645,38,Male,Neurology,Heart Attack,33987,14,0,3,2025-02-06
+646,30,Male,Surgery,Stroke,112044,7,1,1,2023-10-01
+647,35,Female,Surgery,Stroke,198880,11,0,1,2024-05-26
+648,72,Female,Orthopedics,Stroke,10386,12,0,2,2023-10-28
+649,29,Male,Surgery,Diabetes,150487,9,0,3,2024-07-21
+650,48,Female,Neurology,Fracture,44898,8,0,2,2024-04-11
+651,73,Male,Orthopedics,Cancer,14801,9,1,5,2024-01-31
+652,50,Male,Neurology,Diabetes,107763,3,0,1,2023-06-18
+653,40,Female,Neurology,Stroke,21733,15,0,3,2023-09-15
+654,50,Female,Surgery,Heart Attack,21633,14,1,3,2023-07-30
+655,48,Female,Orthopedics,Diabetes,120719,4,0,5,2023-12-12
+656,49,Female,Orthopedics,Stroke,81086,15,0,1,2025-04-26
+657,86,Female,Surgery,Diabetes,194596,7,0,3,2025-02-08
+658,19,Male,Orthopedics,Fracture,118879,7,1,2,2024-10-08
+659,23,Female,Neurology,Heart Attack,69751,1,1,5,2023-08-13
+660,51,Female,Oncology,Diabetes,199685,7,0,3,2025-01-28
+661,21,Male,Oncology,Diabetes,97596,1,1,5,2023-12-08
+662,49,Female,Neurology,Diabetes,112775,4,0,3,2024-01-28
+663,67,Male,Neurology,Cancer,53424,10,0,4,2024-06-01
+664,90,Male,Orthopedics,Stroke,103393,15,0,4,2024-05-02
+665,73,Male,Surgery,Stroke,121710,13,0,5,2024-06-02
+666,81,Female,Oncology,Diabetes,37934,12,1,1,2024-08-18
+667,40,Male,Orthopedics,Fracture,68643,1,0,3,2024-02-01
+668,79,Female,Oncology,Stroke,177100,12,1,2,2023-08-21
+669,38,Female,Neurology,Fracture,60732,2,1,3,2023-08-02
+670,52,Female,Surgery,Cancer,133340,3,0,3,2023-12-17
+671,64,Female,Neurology,Cancer,69423,15,1,3,2024-12-02
+672,62,Male,Oncology,Fracture,123921,3,0,3,2024-05-21
+673,28,Male,Cardiology,Stroke,11845,2,0,4,2023-08-25
+674,78,Male,Neurology,Heart Attack,52306,15,0,5,2024-01-20
+675,73,Male,Surgery,Heart Attack,146609,5,0,3,2024-09-22
+676,33,Female,Cardiology,Heart Attack,38381,6,0,3,2023-09-06
+677,46,Female,Neurology,Diabetes,58596,1,0,4,2024-08-14
+678,88,Male,Neurology,Fracture,33206,1,1,5,2024-03-14
+679,90,Female,Surgery,Heart Attack,159645,14,0,3,2023-10-31
+680,77,Male,Oncology,Fracture,38328,8,0,2,2023-08-20
+681,62,Female,Surgery,Fracture,46966,13,1,5,2024-02-19
+682,65,Male,Oncology,Cancer,34732,8,0,4,2023-12-01
+683,40,Female,Orthopedics,Fracture,70527,6,0,3,2024-11-02
+684,33,Female,Cardiology,Stroke,184753,7,1,1,2023-09-22
+685,85,Male,Neurology,Cancer,46528,3,0,5,2023-08-13
+686,61,Female,Oncology,Diabetes,32879,11,0,1,2025-05-08
+687,90,Female,Neurology,Fracture,30783,3,1,1,2025-04-23
+688,23,Male,Oncology,Diabetes,43792,6,0,2,2024-03-08
+689,80,Female,Neurology,Fracture,55520,14,1,3,2023-09-09
+690,24,Female,Orthopedics,Heart Attack,47778,11,0,1,2024-03-03
+691,83,Female,Cardiology,Cancer,117245,7,0,4,2025-04-14
+692,83,Female,Orthopedics,Diabetes,139854,4,0,5,2023-08-10
+693,44,Female,Surgery,Stroke,163283,3,1,2,2024-11-09
+694,51,Female,Oncology,Diabetes,80474,4,0,2,2023-12-28
+695,79,Female,Surgery,Heart Attack,143724,3,1,2,2024-10-08
+696,21,Female,Oncology,Diabetes,64829,15,0,5,2024-08-08
+697,40,Female,Neurology,Diabetes,116193,1,0,4,2024-09-08
+698,51,Female,Orthopedics,Fracture,125390,7,0,1,2024-07-09
+699,57,Male,Oncology,Stroke,116460,9,1,5,2023-08-28
+700,90,Male,Surgery,Cancer,102113,15,1,4,2024-02-26
+701,55,Female,Cardiology,Diabetes,148716,13,0,1,2024-08-27
+702,35,Female,Neurology,Cancer,49486,12,0,2,2024-01-05
+703,25,Female,Orthopedics,Heart Attack,160782,9,0,4,2024-05-30
+704,81,Male,Oncology,Cancer,61509,4,0,4,2025-04-24
+705,73,Male,Cardiology,Stroke,147485,2,0,1,2024-04-18
+706,46,Female,Cardiology,Fracture,15020,8,0,1,2024-11-24
+707,57,Female,Oncology,Diabetes,53308,8,1,2,2024-10-18
+708,64,Female,Oncology,Fracture,149457,14,0,2,2023-12-18
+709,45,Female,Neurology,Diabetes,18763,15,1,1,2024-03-02
+710,38,Male,Surgery,Heart Attack,182536,11,0,5,2023-12-29
+711,21,Female,Cardiology,Cancer,60657,9,0,3,2024-01-05
+712,18,Female,Orthopedics,Cancer,134783,11,0,2,2023-06-12
+713,74,Male,Neurology,Heart Attack,31216,13,0,4,2024-06-19
+714,48,Female,Oncology,Fracture,74466,5,1,5,2024-07-31
+715,24,Female,Neurology,Stroke,172004,4,0,2,2023-11-18
+716,49,Male,Neurology,Fracture,66585,5,0,5,2023-09-16
+717,68,Male,Neurology,Heart Attack,165555,11,0,3,2024-02-01
+718,85,Female,Cardiology,Diabetes,38528,2,0,1,2024-10-01
+719,85,Male,Cardiology,Cancer,165232,14,1,3,2023-10-25
+720,81,Female,Neurology,Fracture,145195,2,1,4,2024-10-06
+721,53,Male,Oncology,Diabetes,150321,5,0,4,2024-06-01
+722,71,Female,Orthopedics,Stroke,158230,3,1,3,2024-04-22
+723,51,Female,Cardiology,Diabetes,94765,14,0,1,2023-12-15
+724,65,Male,Orthopedics,Stroke,163415,2,0,1,2024-04-10
+725,90,Male,Orthopedics,Cancer,67480,3,1,4,2023-11-14
+726,31,Female,Neurology,Diabetes,167887,5,1,4,2024-02-27
+727,90,Female,Neurology,Cancer,69056,11,0,2,2024-06-04
+728,87,Female,Orthopedics,Stroke,122279,3,0,4,2023-08-22
+729,30,Female,Cardiology,Fracture,49541,8,0,1,2023-07-29
+730,77,Female,Cardiology,Cancer,113161,9,1,3,2025-01-08
+731,22,Female,Neurology,Diabetes,77675,3,1,5,2024-02-14
+732,72,Male,Oncology,Heart Attack,114277,15,1,4,2025-01-23
+733,74,Female,Oncology,Fracture,63673,1,1,2,2024-03-04
+734,18,Male,Cardiology,Cancer,104414,9,0,2,2023-08-19
+735,60,Male,Cardiology,Fracture,190352,9,0,5,2024-09-13
+736,44,Male,Surgery,Diabetes,97866,2,0,3,2024-04-01
+737,87,Female,Orthopedics,Cancer,119815,9,0,4,2024-09-15
+738,28,Female,Surgery,Diabetes,48374,10,1,5,2023-06-25
+739,88,Male,Orthopedics,Cancer,48524,12,1,3,2024-08-12
+740,80,Female,Surgery,Diabetes,165533,15,1,4,2024-01-19
+741,31,Male,Orthopedics,Fracture,126859,7,0,1,2024-10-05
+742,24,Female,Oncology,Heart Attack,70104,6,0,3,2023-09-06
+743,45,Male,Cardiology,Fracture,57232,3,0,1,2025-04-05
+744,71,Female,Cardiology,Cancer,19781,15,0,2,2025-06-04
+745,56,Female,Oncology,Diabetes,177498,6,0,4,2024-02-02
+746,59,Male,Orthopedics,Fracture,149970,5,0,2,2024-11-19
+747,22,Female,Oncology,Stroke,68717,14,0,3,2024-09-15
+748,61,Female,Cardiology,Diabetes,115685,7,0,4,2024-12-24
+749,24,Female,Oncology,Cancer,196555,9,0,2,2023-12-12
+750,22,Male,Orthopedics,Stroke,65948,11,0,2,2024-10-20
+751,48,Female,Orthopedics,Diabetes,170814,2,0,3,2023-11-20
+752,31,Male,Neurology,Diabetes,45197,9,0,4,2024-04-21
+753,52,Male,Neurology,Diabetes,47599,4,0,4,2023-09-27
+754,62,Male,Cardiology,Fracture,15945,11,1,3,2025-02-07
+755,42,Male,Surgery,Cancer,83425,12,0,3,2024-06-05
+756,46,Male,Orthopedics,Heart Attack,26731,5,0,1,2023-10-13
+757,27,Male,Surgery,Fracture,26453,11,0,3,2024-08-14
+758,28,Female,Oncology,Fracture,17469,9,0,5,2024-12-18
+759,71,Female,Neurology,Stroke,78828,11,0,5,2024-11-05
+760,79,Female,Cardiology,Cancer,99651,14,1,5,2023-07-12
+761,66,Male,Cardiology,Heart Attack,118866,11,1,1,2023-09-28
+762,56,Female,Neurology,Diabetes,11267,12,0,2,2024-05-25
+763,22,Female,Neurology,Stroke,113213,15,0,2,2024-09-04
+764,65,Male,Oncology,Diabetes,69976,12,0,2,2024-05-03
+765,61,Female,Cardiology,Stroke,188941,14,0,4,2024-02-01
+766,58,Female,Oncology,Cancer,44438,9,0,2,2024-05-19
+767,19,Female,Surgery,Stroke,112181,5,0,4,2024-05-13
+768,59,Male,Neurology,Stroke,15006,1,1,2,2024-07-07
+769,39,Female,Cardiology,Heart Attack,88716,4,0,3,2024-05-04
+770,71,Female,Surgery,Heart Attack,183722,8,1,4,2024-12-20
+771,20,Female,Surgery,Fracture,18199,11,0,2,2024-08-16
+772,18,Female,Cardiology,Stroke,85077,9,1,1,2023-09-29
+773,38,Male,Oncology,Fracture,82520,13,1,1,2024-02-27
+774,62,Female,Oncology,Cancer,63725,7,1,2,2023-07-04
+775,44,Female,Neurology,Fracture,166689,1,0,3,2023-12-15
+776,84,Male,Surgery,Stroke,123508,11,0,2,2023-09-02
+777,31,Male,Cardiology,Diabetes,124913,3,0,1,2025-05-25
+778,90,Female,Surgery,Stroke,23619,3,0,5,2023-08-28
+779,59,Female,Neurology,Cancer,133205,10,0,3,2023-09-14
+780,57,Male,Cardiology,Heart Attack,85412,2,0,1,2024-01-19
+781,28,Female,Surgery,Stroke,119939,1,0,2,2025-02-04
+782,85,Male,Cardiology,Stroke,77586,15,0,3,2024-05-26
+783,68,Male,Surgery,Heart Attack,22675,11,0,1,2025-01-17
+784,73,Male,Cardiology,Diabetes,95422,3,0,2,2024-05-19
+785,27,Female,Surgery,Heart Attack,150248,15,0,2,2024-07-27
+786,37,Female,Neurology,Fracture,60304,12,0,2,2024-01-04
+787,40,Male,Orthopedics,Heart Attack,178500,10,0,5,2024-09-15
+788,90,Female,Neurology,Diabetes,194537,3,0,2,2023-09-21
+789,36,Female,Oncology,Cancer,96434,2,0,4,2025-06-04
+790,50,Male,Orthopedics,Cancer,142932,10,0,3,2023-11-22
+791,36,Male,Surgery,Stroke,36453,8,0,1,2024-11-19
+792,89,Female,Oncology,Heart Attack,196522,6,1,4,2024-06-13
+793,57,Female,Surgery,Cancer,21501,1,0,5,2024-04-29
+794,24,Male,Orthopedics,Cancer,126939,15,0,4,2024-11-09
+795,75,Male,Orthopedics,Stroke,96145,1,0,3,2024-05-25
+796,57,Male,Oncology,Stroke,161652,6,0,3,2025-03-30
+797,24,Female,Cardiology,Heart Attack,44690,8,0,5,2024-03-24
+798,47,Male,Orthopedics,Diabetes,95152,7,1,5,2025-06-03
+799,50,Female,Oncology,Diabetes,90570,8,0,4,2025-04-21
+800,37,Male,Oncology,Heart Attack,77582,4,0,3,2023-09-10
+801,59,Female,Neurology,Fracture,163652,6,0,3,2024-09-30
+802,19,Male,Neurology,Diabetes,163847,8,0,2,2023-12-08
+803,19,Female,Surgery,Cancer,189969,9,0,2,2025-04-06
+804,21,Female,Neurology,Diabetes,63970,7,1,3,2025-02-05
+805,31,Male,Neurology,Cancer,82358,11,1,4,2024-05-17
+806,71,Female,Orthopedics,Heart Attack,169122,14,0,5,2025-03-20
+807,64,Male,Surgery,Stroke,15221,13,1,1,2025-05-25
+808,35,Female,Neurology,Heart Attack,34018,9,0,5,2023-12-07
+809,76,Female,Orthopedics,Stroke,92153,13,0,5,2024-06-15
+810,61,Female,Orthopedics,Fracture,83492,11,1,3,2024-02-01
+811,72,Male,Oncology,Fracture,22787,10,1,1,2025-05-29
+812,55,Male,Oncology,Cancer,93138,4,0,4,2025-02-21
+813,27,Male,Neurology,Cancer,76755,14,0,2,2024-01-28
+814,84,Male,Surgery,Fracture,30154,3,0,4,2024-09-04
+815,71,Male,Cardiology,Cancer,19226,9,0,5,2023-09-07
+816,90,Male,Orthopedics,Diabetes,15212,4,0,2,2024-05-21
+817,18,Female,Orthopedics,Cancer,190197,10,0,2,2024-10-23
+818,88,Female,Orthopedics,Cancer,69935,10,0,4,2023-09-10
+819,22,Male,Cardiology,Stroke,110280,15,0,3,2023-12-18
+820,33,Female,Orthopedics,Diabetes,13495,6,0,2,2024-05-10
+821,36,Male,Oncology,Cancer,53650,10,0,3,2024-03-27
+822,89,Female,Oncology,Fracture,61044,5,0,5,2023-08-02
+823,90,Female,Neurology,Stroke,123095,15,0,2,2025-05-11
+824,68,Female,Oncology,Heart Attack,112803,9,1,4,2023-07-23
+825,75,Female,Orthopedics,Diabetes,132856,4,0,5,2023-09-20
+826,27,Female,Oncology,Diabetes,188173,15,0,3,2024-04-18
+827,67,Female,Oncology,Fracture,81039,2,1,2,2025-04-01
+828,36,Female,Neurology,Heart Attack,95378,13,0,4,2024-11-28
+829,80,Female,Cardiology,Heart Attack,81429,3,1,1,2024-06-24
+830,60,Male,Orthopedics,Heart Attack,189695,3,0,1,2023-06-27
+831,67,Female,Cardiology,Diabetes,194194,8,0,2,2024-10-12
+832,85,Female,Neurology,Heart Attack,165182,8,0,4,2024-08-06
+833,87,Female,Surgery,Fracture,164759,9,0,4,2024-04-24
+834,40,Female,Surgery,Heart Attack,133572,9,1,5,2025-01-07
+835,55,Female,Neurology,Cancer,91350,4,0,4,2025-01-17
+836,43,Female,Orthopedics,Diabetes,197561,13,0,4,2024-12-28
+837,78,Male,Oncology,Heart Attack,181813,13,0,2,2024-01-26
+838,63,Female,Cardiology,Diabetes,76985,11,1,1,2024-02-02
+839,57,Female,Cardiology,Stroke,56469,14,1,3,2024-08-08
+840,51,Female,Cardiology,Heart Attack,67094,6,0,1,2025-06-04
+841,56,Female,Neurology,Stroke,96480,12,0,1,2025-05-31
+842,72,Male,Surgery,Heart Attack,199997,4,1,3,2024-09-20
+843,57,Male,Orthopedics,Stroke,179737,5,0,2,2024-11-22
+844,54,Male,Cardiology,Cancer,140437,10,0,1,2024-08-17
+845,69,Male,Cardiology,Diabetes,113859,5,0,1,2025-03-09
+846,41,Female,Orthopedics,Heart Attack,128036,3,0,2,2024-01-17
+847,65,Female,Neurology,Cancer,39007,10,1,4,2024-12-10
+848,63,Male,Neurology,Fracture,142365,8,0,5,2023-11-26
+849,67,Male,Orthopedics,Heart Attack,71990,9,0,1,2023-10-18
+850,49,Female,Orthopedics,Heart Attack,50809,6,1,5,2023-06-25
+851,70,Male,Cardiology,Diabetes,44538,3,0,3,2023-07-11
+852,64,Male,Surgery,Stroke,72116,8,0,1,2024-12-31
+853,90,Female,Surgery,Cancer,15528,10,1,3,2025-06-04
+854,90,Female,Neurology,Diabetes,187996,12,0,5,2024-02-15
+855,26,Female,Neurology,Diabetes,137514,3,1,5,2025-05-15
+856,44,Male,Cardiology,Heart Attack,189605,15,0,3,2025-03-07
+857,50,Male,Surgery,Cancer,152071,7,0,1,2024-08-10
+858,58,Female,Surgery,Stroke,104369,4,1,5,2023-12-09
+859,34,Female,Orthopedics,Stroke,89710,4,0,5,2023-07-02
+860,49,Male,Orthopedics,Stroke,161943,8,0,5,2024-07-22
+861,65,Female,Orthopedics,Stroke,30824,1,0,3,2025-03-24
+862,51,Male,Surgery,Cancer,32392,14,0,4,2024-09-19
+863,88,Male,Oncology,Stroke,169823,11,1,4,2023-10-23
+864,74,Female,Surgery,Diabetes,88359,7,1,2,2025-02-23
+865,47,Male,Surgery,Cancer,25311,12,0,2,2023-08-29
+866,40,Male,Cardiology,Heart Attack,98846,13,0,2,2023-08-23
+867,57,Female,Surgery,Heart Attack,112925,8,0,2,2023-11-08
+868,64,Female,Neurology,Heart Attack,57840,13,1,4,2023-06-23
+869,60,Female,Neurology,Stroke,30283,4,0,2,2023-09-08
+870,27,Female,Orthopedics,Cancer,116945,2,0,1,2023-12-16
+871,73,Male,Neurology,Diabetes,20725,12,0,4,2023-07-06
+872,76,Male,Surgery,Stroke,108065,5,0,4,2024-02-22
+873,20,Female,Cardiology,Heart Attack,150181,4,1,5,2024-11-04
+874,46,Female,Oncology,Heart Attack,176207,6,1,3,2025-04-13
+875,86,Male,Neurology,Cancer,121603,3,0,2,2025-03-22
+876,68,Female,Neurology,Cancer,107183,7,1,4,2024-08-23
+877,29,Female,Cardiology,Fracture,124438,10,0,4,2024-01-11
+878,76,Male,Neurology,Cancer,102157,11,0,2,2025-03-09
+879,47,Male,Cardiology,Cancer,118270,4,0,2,2024-12-16
+880,34,Female,Neurology,Heart Attack,102074,4,0,5,2023-10-23
+881,48,Female,Surgery,Stroke,91097,14,1,3,2024-11-19
+882,19,Male,Cardiology,Cancer,137793,13,0,4,2023-10-04
+883,70,Male,Oncology,Cancer,197899,9,1,1,2024-05-04
+884,48,Male,Cardiology,Stroke,110384,8,1,1,2024-12-11
+885,24,Female,Neurology,Heart Attack,142066,7,0,4,2023-07-17
+886,84,Female,Surgery,Cancer,104676,12,0,3,2024-06-09
+887,24,Female,Oncology,Heart Attack,139195,2,1,5,2023-08-18
+888,40,Male,Neurology,Heart Attack,47190,5,0,5,2024-01-23
+889,83,Female,Neurology,Heart Attack,57774,13,0,2,2023-12-02
+890,89,Female,Cardiology,Fracture,93824,10,1,2,2023-07-15
+891,78,Female,Cardiology,Cancer,104056,6,1,4,2024-11-24
+892,57,Male,Neurology,Stroke,93695,11,0,4,2024-09-24
+893,56,Female,Neurology,Cancer,18032,4,0,3,2024-04-21
+894,84,Male,Surgery,Fracture,144602,6,0,4,2023-10-06
+895,56,Female,Orthopedics,Fracture,143130,1,0,5,2025-05-04
+896,62,Female,Orthopedics,Diabetes,134011,4,0,1,2025-03-09
+897,68,Male,Surgery,Cancer,53267,10,1,3,2023-06-29
+898,21,Male,Orthopedics,Cancer,176091,5,1,4,2024-10-08
+899,54,Male,Cardiology,Heart Attack,125275,4,1,5,2025-04-01
+900,73,Female,Cardiology,Stroke,145421,14,0,2,2025-01-08
+901,54,Male,Surgery,Fracture,104234,8,0,2,2024-06-06
+902,50,Male,Neurology,Stroke,184903,7,0,3,2025-06-01
+903,61,Female,Orthopedics,Stroke,170179,4,0,4,2024-02-22
+904,34,Female,Neurology,Cancer,138220,13,0,2,2023-08-15
+905,58,Female,Cardiology,Cancer,82268,1,0,1,2024-05-02
+906,30,Male,Cardiology,Diabetes,53840,4,0,1,2025-02-15
+907,26,Female,Neurology,Fracture,15581,14,1,1,2023-08-27
+908,82,Male,Neurology,Stroke,37354,3,0,4,2024-04-13
+909,45,Male,Surgery,Heart Attack,152765,8,0,3,2024-01-25
+910,49,Male,Orthopedics,Diabetes,12330,14,0,3,2024-01-26
+911,22,Male,Orthopedics,Fracture,100516,11,1,5,2025-05-31
+912,68,Female,Oncology,Cancer,194285,8,0,5,2023-08-29
+913,84,Male,Orthopedics,Cancer,174787,10,0,2,2024-07-10
+914,88,Male,Cardiology,Stroke,46343,5,1,2,2024-05-19
+915,82,Male,Surgery,Diabetes,188962,14,0,3,2024-09-10
+916,86,Male,Surgery,Stroke,33822,14,0,3,2024-04-01
+917,60,Male,Surgery,Cancer,96254,13,0,2,2024-01-05
+918,67,Female,Orthopedics,Diabetes,155898,1,0,4,2025-04-29
+919,48,Male,Cardiology,Stroke,165340,1,0,4,2024-10-03
+920,71,Male,Neurology,Heart Attack,80983,10,0,5,2024-05-01
+921,63,Female,Surgery,Cancer,143757,14,0,2,2024-05-25
+922,90,Male,Cardiology,Stroke,133148,9,0,3,2024-07-13
+923,46,Female,Neurology,Cancer,126559,2,1,3,2023-10-24
+924,65,Female,Oncology,Heart Attack,72706,4,1,4,2023-11-17
+925,42,Female,Oncology,Cancer,62210,10,1,2,2024-11-19
+926,42,Male,Neurology,Heart Attack,126094,10,0,4,2024-07-14
+927,79,Female,Neurology,Stroke,48224,13,1,1,2025-05-04
+928,55,Male,Oncology,Stroke,164915,2,0,3,2025-03-04
+929,34,Male,Oncology,Fracture,15267,9,0,4,2023-10-27
+930,43,Male,Cardiology,Heart Attack,142579,6,0,5,2025-04-02
+931,56,Female,Surgery,Heart Attack,76297,13,0,5,2024-07-20
+932,36,Male,Surgery,Stroke,36597,15,0,4,2023-09-18
+933,24,Male,Surgery,Stroke,168622,9,1,2,2024-09-27
+934,75,Male,Oncology,Cancer,104204,6,1,1,2024-07-24
+935,41,Male,Orthopedics,Diabetes,113839,11,0,5,2024-01-19
+936,62,Male,Oncology,Diabetes,120045,11,0,3,2024-05-08
+937,46,Female,Surgery,Heart Attack,121195,7,0,4,2025-02-15
+938,75,Female,Oncology,Stroke,14771,8,0,5,2024-03-07
+939,61,Male,Surgery,Stroke,185551,4,0,1,2025-02-13
+940,33,Female,Oncology,Cancer,20674,1,0,1,2023-08-13
+941,42,Female,Orthopedics,Fracture,83913,3,1,4,2024-10-05
+942,43,Female,Oncology,Cancer,140567,1,0,4,2023-09-10
+943,36,Female,Oncology,Diabetes,160432,9,1,1,2025-03-07
+944,57,Male,Orthopedics,Cancer,187797,8,1,3,2023-08-11
+945,89,Male,Cardiology,Stroke,158961,3,0,2,2023-11-22
+946,70,Female,Cardiology,Diabetes,110017,10,1,1,2024-05-25
+947,77,Female,Orthopedics,Stroke,140676,7,0,3,2024-10-15
+948,63,Female,Oncology,Diabetes,72032,5,0,5,2023-11-30
+949,41,Female,Orthopedics,Heart Attack,141859,10,0,4,2023-08-23
+950,67,Female,Surgery,Diabetes,54193,2,0,4,2023-06-30
+951,85,Female,Neurology,Cancer,76011,4,0,2,2025-02-21
+952,57,Female,Oncology,Fracture,138165,8,0,1,2025-05-08
+953,26,Female,Oncology,Stroke,57359,5,0,4,2024-04-12
+954,36,Female,Surgery,Diabetes,189264,10,0,4,2025-01-16
+955,45,Female,Surgery,Stroke,187033,14,0,4,2025-02-15
+956,24,Female,Orthopedics,Heart Attack,19480,15,0,3,2024-06-24
+957,85,Male,Orthopedics,Stroke,48056,14,0,1,2023-09-09
+958,66,Female,Neurology,Diabetes,166912,13,0,4,2025-05-13
+959,52,Female,Surgery,Stroke,194856,6,0,5,2024-11-01
+960,68,Female,Neurology,Cancer,13376,2,0,1,2023-11-19
+961,78,Male,Cardiology,Diabetes,176543,6,1,1,2024-08-27
+962,61,Female,Oncology,Diabetes,10955,9,0,2,2023-10-10
+963,21,Male,Neurology,Stroke,132862,13,0,3,2024-04-10
+964,52,Male,Orthopedics,Cancer,199599,1,0,5,2024-11-23
+965,70,Female,Oncology,Stroke,64531,3,0,2,2024-01-08
+966,70,Male,Oncology,Heart Attack,52177,13,0,4,2024-10-24
+967,36,Male,Neurology,Stroke,145606,2,0,1,2023-10-10
+968,52,Female,Surgery,Diabetes,162846,1,1,3,2024-07-25
+969,56,Female,Cardiology,Diabetes,79498,7,1,1,2024-12-14
+970,34,Female,Cardiology,Heart Attack,36371,8,0,5,2024-10-03
+971,67,Male,Orthopedics,Cancer,98272,15,0,2,2025-02-09
+972,57,Male,Surgery,Heart Attack,153648,13,1,1,2024-02-13
+973,80,Male,Neurology,Cancer,40948,10,1,2,2023-10-08
+974,40,Male,Neurology,Cancer,16868,7,0,4,2024-07-02
+975,75,Female,Surgery,Stroke,99515,12,0,1,2024-07-28
+976,46,Male,Cardiology,Diabetes,151512,6,0,5,2025-03-14
+977,58,Male,Orthopedics,Diabetes,155791,5,0,2,2024-12-14
+978,52,Female,Cardiology,Stroke,155707,7,0,2,2023-09-15
+979,78,Male,Cardiology,Diabetes,185002,8,0,4,2024-10-23
+980,59,Male,Oncology,Heart Attack,79727,2,1,1,2024-05-05
+981,23,Female,Surgery,Fracture,81978,2,0,2,2024-12-07
+982,74,Male,Surgery,Diabetes,192323,9,1,4,2024-10-26
+983,73,Female,Oncology,Stroke,162252,2,0,2,2023-09-07
+984,24,Female,Oncology,Fracture,127350,11,0,3,2024-10-07
+985,69,Female,Orthopedics,Fracture,81688,5,0,4,2025-01-24
+986,23,Male,Orthopedics,Cancer,86836,12,0,5,2025-05-18
+987,81,Female,Cardiology,Fracture,45749,6,0,3,2024-06-14
+988,45,Female,Oncology,Diabetes,26341,14,0,2,2024-07-26
+989,53,Female,Oncology,Heart Attack,113079,15,0,5,2025-02-26
+990,79,Male,Orthopedics,Stroke,186464,12,0,4,2023-11-26
+991,64,Female,Surgery,Cancer,12985,2,0,2,2023-06-23
+992,51,Female,Neurology,Fracture,92005,9,0,1,2023-07-07
+993,46,Male,Oncology,Heart Attack,137859,2,1,3,2025-04-03
+994,63,Female,Surgery,Heart Attack,114900,9,0,3,2024-05-08
+995,55,Female,Oncology,Cancer,117776,9,0,4,2025-01-28
+996,26,Female,Orthopedics,Stroke,103750,10,0,3,2024-01-09
+997,80,Male,Neurology,Diabetes,39053,5,1,3,2023-08-15
+998,43,Male,Neurology,Heart Attack,89854,3,0,3,2024-02-01
+999,58,Male,Cardiology,Heart Attack,105075,9,0,1,2024-10-03
+1000,48,Female,Surgery,Heart Attack,142974,2,0,5,2024-11-29
